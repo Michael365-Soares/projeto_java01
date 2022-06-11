@@ -1,6 +1,7 @@
 package curso_github._jdev;
 
 public class Pessoa {
+	private int idade;
     private String nome;
     private String sobreNome;
     
