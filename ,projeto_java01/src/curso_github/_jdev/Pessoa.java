@@ -11,12 +11,18 @@ public class Pessoa {
     
     public Pessoa() {}
     
-	public Pessoa(String nome, String sobreNome) {
+	
+	
+	public Pessoa(int idade, String nome, String sobreNome, Date dataDeNascimento) {
 		super();
+		this.idade = idade;
 		this.nome = nome;
 		this.sobreNome = sobreNome;
+		this.dataDeNascimento = dataDeNascimento;
 	}
-	
+
+
+
 	public String getNome() {
 		return nome;
 	}
@@ -28,6 +34,22 @@ public class Pessoa {
 	}
 	public void setSobreNome(String sobreNome) {
 		this.sobreNome = sobreNome;
+	}
+
+	public int getIdade() {
+		return idade;
+	}
+
+	public void setIdade(int idade) {
+		this.idade = idade;
+	}
+
+	public Date getDataDeNascimento() {
+		return dataDeNascimento;
+	}
+
+	public void setDataDeNascimento(Date dataDeNascimento) {
+		this.dataDeNascimento = dataDeNascimento;
 	}
     
     
