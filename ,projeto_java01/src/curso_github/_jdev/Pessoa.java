@@ -1,9 +1,13 @@
 package curso_github._jdev;
 
+import java.util.Date;
+
 public class Pessoa {
     private int idade;
     private String nome;
     private String sobreNome;
+    //Acabei de add
+    private Date dataDeNascimento;
     
     public Pessoa() {}
     
