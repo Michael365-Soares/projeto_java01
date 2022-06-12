@@ -8,7 +8,7 @@ public class Pessoa {
     private String sobreNome;
     //Acabei de add
     private Date dataDeNascimento;
-    
+    private Date dataDeNascimento2;
     public Pessoa() {}
     
 	
